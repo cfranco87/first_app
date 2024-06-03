@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:first_app/gradient_container.dart';
+import 'package:first_app/background_image.dart';
 
 void main() {
   runApp(
-    const MaterialApp(
-      home: Scaffold(body: GradientContainer(Colors.teal, Colors.deepOrange)),
-    ),
+    const MaterialApp(home: Scaffold(body: BackgroundImage())),
   );
 }
